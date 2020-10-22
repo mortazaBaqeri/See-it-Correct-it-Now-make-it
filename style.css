@@ -10,7 +10,7 @@
 body {
     margin: 0;
     font-size: 18px;
-    background-color: #CAD3C8;
+    background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*------------------------- Navigation -------------------------*/
@@ -18,46 +18,43 @@ body {
 nav {
     position: fixed;
     top: 0; 
-    height: fit-content;
-    padding: 12px 0;
+    height: 240px;
     width: 100%;
-    overflow: hidden;
-    background-color: rgb(202, 211, 200, 1);
+    background-color: rgb(202, 211, 200);
     box-shadow: 4px 10px 10px #F8EFBA;
     z-index: 1;
 }
 
 .logo {
-    margin-top: 0px;
-    float: left;
-    margin-left: 5%;
-    font-weight: bold;
-    font-size: 22px;
-    color: white;
-    margin-bottom: 10px;
+    margin:0;
+    padding:0;
+    background-color: #ff6f00;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    box-sizing: inherit;
 }
 
-.logo img {
-    width: 100px;
+.logo img{
+    margin: 0 20px;
+    width: 120px;
+    padding: 0;
+    float: left;
+}
+.logo .logo-txt{
+    margin-top: calc((120px - 60px) / 2);
+    height: 60px;
+    background-color: white;
 }
 
-.logo-txt {
-    float: left;
-    padding-top: 25px;
+.logo h1 {
     line-height: 40px;
-    padding-left: 200px;
-}
-
-.logo-txt h1 {
-    padding:0px;
-    color: black;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.logo-txt h2 {
-    color: black;
+.logo h2 {
     letter-spacing: 2px;
     font-size: 20px;
     padding-left: 50px;
